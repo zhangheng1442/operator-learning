@@ -2,9 +2,10 @@ package v1
 
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-    	appsv1 "k8s.io/api/apps/v1"
+	appsv1 "k8s.io/api/apps/v1"
     	corev1 "k8s.io/api/core/v1"
-    	appv1 "github.com/cnych/opdemo/pkg/apis/app/v1"
+    	appv1 "github.com/zhangheng1442/operator-learning/opdemo/pkg/apis/app/v1"
+    	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 // EDIT THIS FILE!  THIS IS SCAFFOLDING FOR YOU TO OWN!
